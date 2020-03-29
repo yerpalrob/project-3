@@ -1,0 +1,36 @@
+textarea {
+    min-height: 400px;
+}
+
+/* when hovering change the background color to yellow and make text look like a link to indicate where to click */
+.emails div:hover {
+	background-color: yellow;
+	color: blue;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+/* when an email has been read make the background gray */
+.read_true {
+	border: 5px solid red;
+	padding: 20px;
+	margin: 15px;
+	height: 55px;
+	color: black;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: gray;
+}
+/* when an email has not been read make the background white */
+.read_false {
+	border: 5px solid red;
+	padding: 20px;
+	margin: 15px;
+	height: 55px;
+	color: black;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	font-weight: normal;
+}
